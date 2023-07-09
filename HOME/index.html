@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME</title>
-    <link rel="stylesheet" href="../HOME/styles.css">
-</head>
-<body>
-    <div class="triangulo1"></div>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
+  <body>
+    <div class="triangulo1"></div>
     <div class="triangulo2"></div>
-    
-</body>
+
+    <main class="container">
+      <img
+        class="logo"
+        src="../assets/img/comanda virtual home.png"
+        alt="logo"
+      />
+
+      <form class="form-login">
+        <div class="container-input">
+          <label for="email">E-Mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+          />
+        </div>
+
+        <div class="container-input">
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Digite sua senha"
+          />
+        </div>
+
+        <div class="container-button">
+          <button class="button-form">Entrar</button>
+          <a href="">Esqueceu a senha</a>
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
