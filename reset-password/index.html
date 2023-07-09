@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Alterar Senha</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -31,18 +31,27 @@
         </div>
 
         <div class="container-input">
-          <label for="password">Senha</label>
+          <label for="newPassword">Nova Senha</label>
           <input
             type="password"
-            id="password"
-            name="password"
-            placeholder="Digite sua senha"
+            id="newPassword"
+            name="newPassword"
+            placeholder="Digite uma nova senha"
+          />
+        </div>
+
+        <div class="container-input">
+          <label for="repetNewPassword">Repita a Senha</label>
+          <input
+            type="password"
+            id="repetNewPassword"
+            name="repetNewPassword"
+            placeholder="Digite novamente"
           />
         </div>
 
         <div class="container-button">
-          <button class="button-form">Entrar</button>
-          <a href="">Esqueceu a senha</a>
+          <button class="button-form">Salvar</button>
         </div>
       </form>
     </main>
